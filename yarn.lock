@@ -1960,12 +1960,10 @@
     qs "^6.7.0"
     url-parse "^1.4.7"
 
-"@primer/octicons-react@^9.6.0":
-  version "9.6.0"
-  resolved "https://registry.npmjs.org/@primer/octicons-react/-/octicons-react-9.6.0.tgz#996f621cb063757a4985cd6b45e59ed00e3444bf"
-  integrity sha512-FR0fiU1UY1ds5ZMCUY+iVkkm1Eh4yDHf2ui+cxB3VvYX23DAdUAohPGit+qaMFy2caDd7uWYGRZduKS7dW1FZQ==
-  dependencies:
-    prop-types "^15.6.1"
+"@primer/octicons-react@^10.0.0":
+  version "10.0.0"
+  resolved "https://registry.npmjs.org/@primer/octicons-react/-/octicons-react-10.0.0.tgz#82f0d64b4276778fb51468afac00aa0c420ad230"
+  integrity sha512-I+m7Srg/Ivo5VuXoKwKCJ6YJya+lr6EVzp/WGnDlwBSpy0m4WfYAmZigt3A0i4JMqgLRFDlK+8AgqT66E9bOOw==
 
 "@reach/accordion@^0.10.2":
   version "0.10.2"
@@ -17536,7 +17534,7 @@ querystring@0.2.0, querystring@^0.2.0:
   resolved "https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
-querystringify@^2.0.0, querystringify@^2.1.1:
+querystringify@^2.1.1:
   version "2.1.1"
   resolved "https://registry.npmjs.org/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
   integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
@@ -19791,7 +19789,7 @@ sourcegraph@^24.0.0:
   integrity sha512-VQw73xafvfZZkjNqJY0kZEXexHRbqut60ed/guDlncdZJwf6zr7jQXeqh3p5v1VH09ef23758s6u6Fqbqgmt9Q==
 
 "sourcegraph@link:packages/sourcegraph-extension-api":
-  version "24.5.0"
+  version "24.6.0"
 
 space-separated-tokens@^1.0.0:
   version "1.1.2"
