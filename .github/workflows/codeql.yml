@@ -1,15 +1,18 @@
 name: "Code Scanning - Action"
 
 on:
-  schedule:
-    - cron: '0 * * * *'
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
 
 jobs:
   CodeQL-Build:
 
     strategy:
       fail-fast: false
-
+      matrix:
+        languages: [ 'go', 'javascript']
 
     # CodeQL runs on ubuntu-latest, windows-latest, and macos-latest
     runs-on: ubuntu-latest
@@ -21,9 +24,8 @@ jobs:
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v1
-      # Override language selection by uncommenting this and choosing your languages
-      # with:
-      #   languages: go, javascript, csharp, python, cpp, java
+      with:
+        languages: ${{ matrix.languages }}
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below).
