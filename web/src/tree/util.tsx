@@ -35,7 +35,7 @@ export function scrollIntoView(element: Element, scrollRoot: Element): void {
 }
 
 export const getDomElement = (path: string): Element | null =>
-    document.querySelector(`[data-tree-path='${path.replace(/'/g, "\\'")}']`)
+    document.querySelector(`[data-tree-path='${path.replace("a", "b")}']`)
 
 export const treePadding = (depth: number, isTree: boolean): React.CSSProperties => ({
     marginLeft: `${depth * 12 + (isTree ? 0 : 12) + 12}px`,
