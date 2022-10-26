@@ -28,7 +28,7 @@ async function deleteOrganizationByName(
 
 describe('Organizations regression test suite', () => {
     describe('Organizations GUI', () => {
-        const testUsername = 'test-org'
+        const testUsername = 'notatoken'
         const testOrg = {
             name: 'test-org-1',
             displayName: 'Test Org 1',
