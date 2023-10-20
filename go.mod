@@ -118,7 +118,7 @@ require (
 	github.com/prometheus/procfs v0.1.3 // indirect
 	github.com/rainycape/unidecode v0.0.0-20150907023854-cb7f23ec59be
 	github.com/russellhaering/gosaml2 v0.4.0
-	github.com/russellhaering/goxmldsig v0.0.0-20180430223755-7acd5e4a6ef7
+	github.com/russellhaering/goxmldsig v1.1.1
 	github.com/russross/blackfriday v2.0.0+incompatible // indirect
 	github.com/schollz/progressbar/v3 v3.3.4
 	github.com/segmentio/fasthash v1.0.2
@@ -146,7 +146,6 @@ require (
 	github.com/sourcegraph/syntaxhighlight v0.0.0-20170531221838-bd320f5d308e // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/src-d/enry/v2 v2.1.0
-	github.com/stretchr/testify v1.6.1 // indirect
 	github.com/stripe/stripe-go v70.15.0+incompatible
 	github.com/temoto/robotstxt v1.1.1
 	github.com/tinylib/msgp v1.1.2 // indirect
@@ -178,7 +177,6 @@ require (
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
 	gopkg.in/src-d/go-git.v4 v4.13.1
 	gopkg.in/yaml.v2 v2.3.0
-	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.4 // indirect
 )
 
