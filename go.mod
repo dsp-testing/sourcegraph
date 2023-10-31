@@ -71,7 +71,7 @@ require (
 	github.com/goware/urlx v0.3.1
 	github.com/grafana-tools/sdk v0.0.0-20200627094057-622ba1f937bb
 	github.com/graph-gophers/graphql-go v0.0.0-20200622220639-c1d9693c95a6
-	github.com/graphql-go/graphql v0.7.9
+	github.com/graphql-go/graphql v0.8.1
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79
 	github.com/hashicorp/go-hclog v0.14.1 // indirect
 	github.com/hashicorp/go-multierror v1.1.0
