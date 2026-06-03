@@ -301,7 +301,7 @@ var repoRemoteURL = func(ctx context.Context, dir GitDir) (string, error) {
 var repoRemoteRefs = func(ctx context.Context, url, prefix string) (map[string]string, error) {
 	// The expected output of this git command is a list of:
 	// <commit hash> <ref name>
-	cmd := exec.Command("git", "ls-remote", url, prefix+"*")
+	cmd := exec.Command("git", "ls-remote", "--", url, prefix+"*")
 	var stdout, stderr bytes.Buffer
 	cmd.Stdout = &stdout
 	cmd.Stderr = &stderr
